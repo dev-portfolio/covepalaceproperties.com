@@ -8037,13 +8037,13 @@ h1, h2, h3, h4, h5,
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
-  top: -25px;
+  top: -20px;
   left: 0;
   right: 0;
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      /* background: #000000 !important; */
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -8072,7 +8072,8 @@ h1, h2, h3, h4, h5,
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 0;
-        color: #fff; } }
+        /* color: #fff; */
+		} } 
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -8127,7 +8128,7 @@ h1, h2, h3, h4, h5,
       color: #d4ca68; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0, 1) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -8141,7 +8142,7 @@ h1, h2, h3, h4, h5,
     position: fixed;
     right: 0;
     left: 0;
-    top: -20;
+    top: -20px;
     margin-top: -130px;
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -8986,7 +8987,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #d4ca68;
+    background: black;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -9250,7 +9251,11 @@ textarea.form-control {
   display: block; }
   @media (max-width: 991.98px) {
     #map {
-      height: 300px; } }
+      height: 300px; }
+  .slider-text h1 {
+	  font-size: 40px !important;
+  }
+}
 
 .mouse {
   position: absolute;
@@ -9262,12 +9267,12 @@ textarea.form-control {
 .mouse-icon {
   width: 80px;
   height: 80px;
-  border: 1px solid #d4ca68;
+  border: 1px solid black;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background: #d4ca68;
+  background: black;
   cursor: pointer;
   position: relative;
   text-align: center;
@@ -9615,7 +9620,7 @@ textarea.form-control {
   .ftco-counter .text strong.number {
     font-weight: 500;
     font-size: 46px;
-    color: #d4ca68; }
+    color: black; }
   .ftco-counter .text span {
     display: block;
     font-size: 16px;
